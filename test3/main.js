@@ -32,3 +32,16 @@ document.getElementById("mydiv").innerHTML = object.show();
 
 var object2 = new ColoredRectangle(400, 300, "blue");
 document.getElementById("mydiv2").innerHTML = object2.show();
+
+/////////////////////////////////////////////////////////////////////////////
+//session 5
+function test(x) {
+    console.log("this is old version syntax function.", x);
+}
+//arrow functions
+const test2 = (x) => {
+    console.log("this is newer version syntax sunction.", x);
+}
+
+//baray 1 input , return ham mishe nanevesht faghat action nevesht ...x => x*2
+const test = x => console.log("this is newer version syntax sunction.", x);
